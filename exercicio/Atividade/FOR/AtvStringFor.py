@@ -8,8 +8,8 @@ Data de nascimento<data de nascimento>
 x =  input("Digite seu Nome e Data de Nascimento ( separando a data por barras): ")
 z = x.split()
 
-print(z[0], z[-2])
-print(z[-1])
+print("Nome:",z[0],z[-2])
+print("Data de Nascimento: ",z[-1])
 
 
 
