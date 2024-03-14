@@ -1,0 +1,1 @@
+print(sum([i for i in range(3,501) if i%3==0]))
