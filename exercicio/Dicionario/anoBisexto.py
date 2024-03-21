@@ -3,9 +3,10 @@ retorna uma lista de dicionário no seguinte formato:
 {"ano": 2003, "bisexto": False} para cada ano digitado 
 indicando se o ano é bisexto ou não;
 '''
-
+from pprint import pprint
 lista = []
 print("###########DIGITE QUATRO ANOS PARA SABER SE ELES SÃO BISEXTOS###########")
+
 
 for i in range(4):
     ano = int (input(f'Digite um ano: \n'))
@@ -15,4 +16,4 @@ for i in range(4):
     else:
         lista.append({"ano": ano, "bissexto":False})
         
-print(lista)
+pprint(lista)
