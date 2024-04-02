@@ -16,7 +16,7 @@ while True:
     peso = float(input("Digite o seu peso: "))
 
     imc = calcula_imc(altura, peso)
-    v = {"nome": nome, "altura" : altura, "peso" : peso,}
+    v = {"nome": nome, "altura" : altura, "peso" : peso,"imc":imc}
     ListaGeral.append(v)
 
 print(f"Foram cadastradas {len(ListaGeral)} pessoas")
