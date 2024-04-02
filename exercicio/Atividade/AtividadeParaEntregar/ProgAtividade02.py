@@ -16,7 +16,7 @@ while True:
     if nome.upper() == 'FIM':
         break
     altura = float(input("Digite seu altura:"))
-    peso = int(input("Digite seu peso:"))
+    peso = float(input("Digite seu peso:"))
     imc = peso / (altura/100) ** 2
     geral= {"nome":nome,"altura":altura,"peso":peso,"imc":imc}
     #a lista ira receber a lista de dicionario 
@@ -40,4 +40,4 @@ listaGeral = sorted(listaGeral, key=lambda x: x["imc"])
 # Listagem dos nomes das pessoas ordenadas por IMC
 print("\nListagem de pessoas ordenadas por IMC:")
 for pessoa in listaGeral:
-    print(pessoa["nome"])
+    print(pessoa["nome"],["peso"])
