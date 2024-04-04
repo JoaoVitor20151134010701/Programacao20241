@@ -11,4 +11,4 @@ iTaxa = float(input(f"Digite o seu taxa: \n"))
 tempo= float(input(f"Digite a o tempo: \n"))
 resultadoFinal = montanteFinal(capital,iTaxa,tempo)
 
-print(f"O seu investimento feito em {tempo} meses, deu um resultado final de: R${resultadoFinal:.3f}")
+print(f"O seu investimento de {capital} feito em {tempo} meses, deu um resultado final de: R${resultadoFinal:.3f}")
