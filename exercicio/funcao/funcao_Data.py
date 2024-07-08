@@ -1,8 +1,8 @@
 from pprint import pprint
 
 def mes_xtenso(mes):
-    meses = ["Janeiro", "fevereiro", "março", "Abril", "Maio", "Junho", "julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro"]
-    return meses[int(mes) -1 ]
+    meses = ["","Janeiro", "fevereiro", "março", "Abril", "Maio", "Junho", "julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro"]
+    return meses[int(mes)  ]
 
 data = input("Digite a data (dd/mm/aa)")
 data = data.split("/")
