@@ -1,7 +1,11 @@
 def area(altura, largura):
     return altura*largura
 
-alt = input("Digite altura: ")
-larg = input("Digite largura: ")
+def main():
+    alt = input("Digite altura: ")
+    larg = input("Digite largura: ")
 
-print("Area = ", area(int(alt), int(larg)))
+    print("Area = ", area(int(alt), int(larg)))
+
+if __name__ == '__main__':
+    main()
