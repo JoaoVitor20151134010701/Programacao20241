@@ -4,3 +4,4 @@ A digitação termina quando você digitar a palavra "FIM". Após os nomes estar
 busca e filtragem pra copiar para uma segunda lista apenas os nomes que possuem mais de 6 letras. E, por fim, 
 imprima os nomes filtrados um abaixo do outro.'''
 
+print("amo vocÊ")
