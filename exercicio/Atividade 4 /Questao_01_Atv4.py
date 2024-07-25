@@ -1,11 +1,12 @@
+  # Cria um dicionário vazio para armazenar o resultado
 def inverte_dicionario(d):
-    # Cria um dicionário vazio para armazenar o resultado
+  
     resultado = {}
       
-    for chave, valor in d.items():
+    for c, valor in d.items():
         if valor not in resultado:
             resultado[valor] = []
-        resultado[valor].append(chave)
+        resultado[valor].append(c)
     
     return resultado
 
