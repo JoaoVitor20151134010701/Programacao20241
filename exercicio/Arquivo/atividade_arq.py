@@ -6,14 +6,6 @@ deverá salvar essas informações em um arquivo texto aonde cada
 pessoa deverá ficar armazenada em uma linha do arquivo e o nome e
 email deverão ser separados por vírgula.'''
 
-from asyncore import write
-
-
-def salvarArquivo(x,y):
-    valor = x * y 
-    return valor
-
-
 ListaDados = []
 
 while True:
@@ -29,7 +21,7 @@ while True:
 arq = open('ListadePessoasComEmail.txt','w')
 for p in ListaDados:
     dado = ",".join(p)
-    arq,write(f"{dado}\n")
+    arq.write(f"{dado}\n")
 
 arq.close()
 
