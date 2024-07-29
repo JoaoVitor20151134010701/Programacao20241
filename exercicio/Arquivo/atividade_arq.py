@@ -26,3 +26,16 @@ for p in ListaDados:
 arq.close()
 
 print("Arquivo Gerado! ")
+
+
+#id	nome	idade
+#1	Maria	25
+#2	João	30
+#3	Ana	22
+#4	Pedro	28
+#5	Sofia	24
+#6	Lucas	29
+#7	Laura	26
+#8	Miguel	23
+#9	Clara	27
+#10	Gabriel	31
