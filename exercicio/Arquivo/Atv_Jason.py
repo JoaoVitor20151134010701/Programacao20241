@@ -1,4 +1,5 @@
-import pickle
+import json
+
 
 ListaDados = []
 
@@ -12,7 +13,6 @@ while True:
 
 #print(ListaDados)
 
-f = open('arquivoBinario.pkl', 'wb')
-pickle.dump(ListaDados, f)
-f.close()
-print("Arquivo Gerado! ")
+with open('lista_pessoas.json','w') as f:
+    json.dump(ListaDados,f,indent=4)
+    
