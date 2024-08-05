@@ -2,9 +2,8 @@
 dd/mm/aaaa) e ele vai lhe informar quantos dias faltam para o seu
 próximo aniversário'''
 
-import datetime
+from datetime import datetime
 import locale
-agora = datetime.datetime.now()
+agora = datetime.now()
 niver = input("Digite a data do seu aniversário utilizando '/' para separá-los: ")
-versario = niver.split('/')
-print(versario)
+dataFormatada = datetime.
